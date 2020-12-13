@@ -5,7 +5,7 @@
       <h1 class="title">
         テスト
       </h1>
-      <button @click="fetchSomething">ip取得</button>
+      <v-btn depressed color="error" @click="fetchSomething">ip取得</v-btn>
       </div>
     </div>
   </div>

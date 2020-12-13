@@ -18,3 +18,8 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## installed package
+npm install --save-dev sass sass-loader fibers
+npm install @nuxtjs/axios
+npm i -D @nuxtjs/vuetify
