@@ -1,4 +1,5 @@
 export default {
+  target: 'static',
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'nuxt-test',
@@ -38,7 +39,7 @@ export default {
     // https://vuetifyjs.com/en/
     '@nuxtjs/vuetify'
   ],
-  
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   }
