@@ -2,9 +2,7 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
-        nuxt-test
-      </h1>
+      <h1 class="title">nuxt-test</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -22,8 +20,8 @@
         >
           GitHub
         </a>
- <NuxtLink to="/test">test</NuxtLink>
- <NuxtLink to="/test2">test2</NuxtLink>
+        <NuxtLink to="/test">test</NuxtLink>
+        <NuxtLink to="/test2">test2</NuxtLink>
       </div>
     </div>
   </div>
@@ -51,16 +49,8 @@ export default Vue.extend({})
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
