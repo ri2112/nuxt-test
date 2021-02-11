@@ -1,8 +1,17 @@
 version: "3"
 
 services:
-  nuxt-test:
-    image: 782331103598.dkr.ecr.ap-northeast-1.amazonaws.com/nuxt-test
-    restart: always
+  nuxt:
+    build:
+      context: .
+      dockerfile: DockerfileDev
+    tty: true
+    command: /bin/sh -c "yarn run dev"
+    volumes:
+      - .:/app
+      - node-modules:/app/node_modules
     ports:
-      - "8080:80"
+      - 8080:3000
+
+volumes:
+  node-modules:

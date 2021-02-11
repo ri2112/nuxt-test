@@ -1,5 +1,12 @@
 # nuxt-test
 
+## 開発環境
+以下コマンドでDocker上で開発環境を立ち上げる
+※ node_modules以外のファイルは同期させている
+```bash
+$ docker-compose up
+```
+
 ## Build Setup
 
 ```bash
